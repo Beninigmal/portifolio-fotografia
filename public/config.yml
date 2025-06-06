@@ -3,11 +3,6 @@ backend:
   repo: Beninigmal/portifolio-fotografia
   branch: main
   auth_scope: repo
-  app_id: "Ov23liFA6Y5cZfUwfqzT"
-  base_url: "/cms.html"
-  commit_messages:
-    create: "Criar {{collection}} '{{slug}}'"
-    update: "Atualizar {{collection}} '{{slug}}'"
 
 media_folder: "public/images/uploads"
 public_folder: "/images/uploads"
@@ -15,7 +10,7 @@ public_folder: "/images/uploads"
 collections:
   - name: "portfolio"
     label: "Portfólio"
-    folder: "src/data/portfolio"
+    folder: "public/data/portfolio"
     create: true
     fields:
       - { name: "title", label: "Título", widget: "string" }

@@ -1,14 +1,11 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Portfolio from "./components/portfolio/index.jsx";
+import Portfolio from "./components/portfolio";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Portfolio />} />
-      </Routes>
-    </BrowserRouter>
+    <div className="app">
+      <Portfolio />
+    </div>
   );
 }
 
