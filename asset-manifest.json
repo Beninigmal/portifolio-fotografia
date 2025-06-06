@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portifolio-fotografia/static/css/main.0cb2d76a.css",
+    "main.js": "/portifolio-fotografia/static/js/main.6c06d797.js",
+    "static/js/453.47f884ca.chunk.js": "/portifolio-fotografia/static/js/453.47f884ca.chunk.js",
+    "index.html": "/portifolio-fotografia/index.html",
+    "main.0cb2d76a.css.map": "/portifolio-fotografia/static/css/main.0cb2d76a.css.map",
+    "main.6c06d797.js.map": "/portifolio-fotografia/static/js/main.6c06d797.js.map",
+    "453.47f884ca.chunk.js.map": "/portifolio-fotografia/static/js/453.47f884ca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0cb2d76a.css",
+    "static/js/main.6c06d797.js"
+  ]
+}

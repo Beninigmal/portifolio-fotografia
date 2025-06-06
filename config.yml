@@ -1,0 +1,18 @@
+backend:
+  name: github
+  repo: Beninigmal/portifolio-fotografia
+  branch: main
+  auth_scope: repo
+
+media_folder: "public/images/uploads"
+public_folder: "/portifolio-fotografia/images/uploads"
+
+collections:
+  - name: "portfolio"
+    label: "Portfólio"
+    folder: "public/data/portfolio"
+    create: true
+    fields:
+      - { name: "title", label: "Título", widget: "string" }
+      - { name: "photo", label: "Foto", widget: "image" }
+      - { name: "description", label: "Descrição", widget: "text" }
