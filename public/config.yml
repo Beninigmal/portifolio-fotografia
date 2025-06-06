@@ -4,6 +4,7 @@ backend:
   branch: main
   auth_scope: repo
   app_id: "Ov23liFA6Y5cZfUwfqzT"
+  base_url: "/cms.html"
 
 media_folder: "public/images/uploads"
 public_folder: "/images/uploads"

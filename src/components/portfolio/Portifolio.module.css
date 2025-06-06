@@ -1,0 +1,10 @@
+/* src/components/Portfolio/Portfolio.module.css */
+.container {
+  display: grid;
+  gap: 2rem;
+}
+
+.item {
+  border: 1px solid #eee;
+  padding: 1rem;
+}
