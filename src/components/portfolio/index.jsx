@@ -16,7 +16,8 @@ export default function Portfolio() {
           postFiles.map(async (file) => {
             try {
               const res = await fetch(
-                process.env.PUBLIC_URL + `/data/portfolio/${file}`
+                process.env.PUBLIC_URL + `/data/portfolio/ensaio-na-praia.md`
+                // process.env.PUBLIC_URL + `/data/portfolio/${file}`
               );
               const text = await res.text();
               console.log("Conteúdo REAL do arquivo:", text); // Verifique agora
